@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*header and four part css*/
+
+.header_img {
+	width: 100%;
+	height: 500px; 
+	background-image: url('PORTADA.jpg');
+	border-radius:10px ;
+	background-size: cover; 
+	background-position: center;
+	margin-top: -2px;
+}  
+
+.header_image_text , .four_image_text{
+	color: white;
+	padding-left: 27%;
+	padding-top: 12%;
+	font-size: 50px;
+}
+
+.header_image_text_undertext , .four_image_text_undertext{
+	color: rgba(99, 98, 98, 0.986);
+	padding-left: 21%;
+}
+
+.hr{
+	height: 2px;
+	background-color: white;
+	margin: 3%;
+}
+
+/*secund and five part css*/
+
+.second_row_text , .five_row_text{
+	padding: 20px;
+	font-size: 50px;
+	padding-left: 90px;
+}
+
+.second_row_text_2 , .five_row_text_2{
+/*	text-align: left;*/
+	font-size: 20px;
+	padding: 12px;
+}
+
+
+
+/*therd part css*/
+
+
+
+
+#left{
+	width: 240rem;
+}
+
+#left-right{
+	display: flex;
+	justify-content: space-between;
+}
+
+#right{
+	width: 350px;
+}
+
+#down{
+	display: flex;
+	flex-direction: column;
+}
+
+#image{
+	display: flex;	
+	justify-content: center;
+	margin-left: 20px;
+	width: 300px;               
+}
+
+#potada{
+	height: 360px;
+}
+
+#down{
+	margin-left: 20px;
+	display: flex;
+	margin-left: 25px;
+	justify-content: space-around;
+	flex-direction: row !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	gap: 10px;
+}            
+
+
+/*.therd_part_forimg{
+	flex: 1; 
+  	padding: em;
+}
+
+.therd_part_img_01{
+  	height:100%;
+  	border-radius: 10px 10px 10px 10px;
+}
+
+.therd_part_img_02 {
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.therd_part_img_03 {
+	border: 3px solid rgb(255, 255, 255);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.therd_part_img_04 {
+	border: 3px solid rgb(255, 255, 255);
+	border-radius: 10px 10px 10px 10px;
+}
+*/
+
+
+
+/*four part css*/
+
+.four_image {
+	width: 100%;
+	height: 600px; 
+	background-image: url('map.jpeg');
+	border-radius:10px ;
+	background-size: cover; 
+	background-position: center;
+	margin-top: -2px;
+} 
+
+#four_image_text_undertext{
+	color: white;
+	padding-left: 19%;
+}
+
+
+
+
+/*six part css*/
+
+.six_part_img{
+    border-radius: 15% 15% 15% 15%;
+
+}
+
+
+
+/*eight and nine part css*/
+
+.eight_part_comment , .nine_part_comment {
+    border: 6px solid rgb(255, 255, 255);  
+	background-color: rgba(111, 111, 111, 0.225);
+}
+
+.eight_part_dot , .nine_part_dot {
+    float: right;
+    margin-right: 5%;
+ }
+
+
